@@ -1,8 +1,8 @@
 """
 ================================================================================
   CUSTOMER CHURN ANALYSIS AND PREDICTION — COMPLETE ML PIPELINE
-  SaiKet Systems | Telco Churn Benchmark
-  Author: ML Engineering Team
+  Telco Churn Benchmark
+  Author: Lakshya Sakhuja
   Python 3.10+ | scikit-learn 1.8
 ================================================================================
 
