@@ -1,0 +1,91 @@
+{
+  "best_model": "Logistic Regression",
+  "test_accuracy": 0.8098,
+  "test_roc_auc": 0.8477,
+  "test_f1": 0.5952,
+  "test_recall": 0.5267,
+  "test_precision": 0.684,
+  "test_pr_auc": 0.6681,
+  "mcc": 0.4805,
+  "train_accuracy": 0.8094,
+  "optimal_threshold": 0.36,
+  "n_features": 38,
+  "dataset_rows": 7043,
+  "churn_rate_pct": 26.54,
+  "confusion_matrix": [
+    [
+      944,
+      91
+    ],
+    [
+      177,
+      197
+    ]
+  ],
+  "all_models": [
+    {
+      "name": "Logistic Regression",
+      "accuracy": 0.8041163946061036,
+      "precision": 0.6655405405405406,
+      "recall": 0.5267379679144385,
+      "f1": 0.5880597014925373,
+      "roc_auc": 0.8466093156630241
+    },
+    {
+      "name": "Gradient Boosting",
+      "accuracy": 0.7934705464868701,
+      "precision": 0.6378737541528239,
+      "recall": 0.5133689839572193,
+      "f1": 0.5688888888888889,
+      "roc_auc": 0.8387248443514428
+    },
+    {
+      "name": "AdaBoost",
+      "accuracy": 0.7877927608232789,
+      "precision": 0.6245847176079734,
+      "recall": 0.5026737967914439,
+      "f1": 0.557037037037037,
+      "roc_auc": 0.836079464723966
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 0.7856635911994322,
+      "precision": 0.6224489795918368,
+      "recall": 0.4893048128342246,
+      "f1": 0.5479041916167665,
+      "roc_auc": 0.8248056007646802
+    },
+    {
+      "name": "Naive Bayes",
+      "accuracy": 0.7012065294535131,
+      "precision": 0.46412213740458014,
+      "recall": 0.8128342245989305,
+      "f1": 0.5908649173955296,
+      "roc_auc": 0.8218837996331603
+    },
+    {
+      "name": "SVM (RBF)",
+      "accuracy": 0.7991483321504613,
+      "precision": 0.657439446366782,
+      "recall": 0.5080213903743316,
+      "f1": 0.5731523378582202,
+      "roc_auc": 0.7969774471053244
+    },
+    {
+      "name": "K-Nearest Neighbours",
+      "accuracy": 0.7778566359119943,
+      "precision": 0.5899705014749262,
+      "recall": 0.5347593582887701,
+      "f1": 0.5610098176718092,
+      "roc_auc": 0.7962076002996719
+    },
+    {
+      "name": "Decision Tree",
+      "accuracy": 0.7480482611781405,
+      "precision": 0.5267605633802817,
+      "recall": 0.5,
+      "f1": 0.5130315500685871,
+      "roc_auc": 0.6683574879227052
+    }
+  ]
+}
